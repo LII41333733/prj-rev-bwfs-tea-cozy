@@ -1,0 +1,190 @@
+/*.container, div{
+	border: 1px solid red;
+	display:flex;
+}
+
+
+
+/*--- Main Container ---*/
+
+body{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+	font-size:22px;
+	color:seashell;
+	opacity: 0.9;
+	display:flex;
+	justify-content: center;
+
+
+}
+
+
+/*-----   Header   -----*/
+
+.header{
+	display:flex;
+	position:fixed;
+	height: 69px;
+	width: 100%;
+	background-color: black;
+	border-bottom: 1px solid seashell;
+	padding-left: 10px;
+}
+
+.logo{
+	display:inline-flex;
+	padding:10px;
+}
+
+.logo img{
+	height:50px;
+	width:175px;
+}
+
+.nav{
+	display:inline-flex;
+	justify-content: flex-end;
+	flex-grow:1;
+	padding-right: 40px;
+	align-items: center;
+}
+
+.nav span a {
+	text-decoration: underline;
+	padding:20px;
+	height:69px;
+	color: seashell;
+}
+
+
+
+/*-----   Container    -----*/
+
+.container{
+	padding-top: 100px;
+	display:flex;
+	height:1000px;
+	justify-content: center;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*-----   Our Misson   -----*/
+
+.our-mission{
+ 	 display: flex;
+ 	 align-items: center;
+ 	 justify-content: center;
+  	margin: 0 auto;
+  	width: 1200px;
+ 	 height: 700px;
+
+  	background-image: url('../images/img-mission-background.jpg');
+  
+}
+
+.banner{
+	text-align: center;
+	background-color: black;
+	width: 100%;
+
+}
+
+/*-----   Tea of the Month   -----*/
+.tea-of-the-month{
+	display:flex;
+	width: 1000px;
+	display:block;
+	justify-content: center;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+
+.tea-heading{
+	text-align: center;
+}
+
+img{
+	height: 200px;
+	width: 300px;
+}
+
+.row{
+	display:flex;
+	justify-content: center;
+	padding:10px;
+	
+}
+
+.block{
+	padding:0px 20px;
+	text-align: center;
+}
+
+.block h4{
+	padding:10px;
+	margin:0;
+}
+
+/*-----   Locations   -----*/
+
+.locations{
+	background-image: url("../images/img-locations-background.jpg");
+	height: 500px;
+	width: 1200px;
+	justify-content: center;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+.location-heading h2{
+	text-align: center;
+	padding-top: 50px;
+	margin: 0;
+}
+
+.block-row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+.location-block{
+	margin: 15px 40px;
+	background-color: black;
+	height: 300px;
+	width: 300px;
+	display: inline-flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.location-block span{
+	padding: 20px;
+	font-size: 20px;
+}
+
+
+/*-----   Footer   -----*/
+
+
+.contact-info{
+
+	text-align: center;
+	width: 100%;
+	height: 200px
+}
+
+.copyright{
+	text-align: left;
+	width: 100%;
+	padding: 20px;
+}
